@@ -591,7 +591,7 @@ h1, h2, h3, h4, h5, h6 {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("D:\\EIE\\NOMIZO2k22-main\\img\\hero-bg.jpg");
+  background: url("about.png");
   background-size: cover;
   overflow: hidden;
   position: relative;
