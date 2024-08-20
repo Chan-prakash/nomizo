@@ -2,6 +2,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+#one{
+  margin-left: 0px;
+  
+}
 body {
   background: #fff;
   color: #2f3138;
@@ -938,6 +942,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #contact .contact-info a {
   color: #4869df;
+  padding: 0%;
+  margin:0%;
 }
 #contact .contact-info a:hover {
   color: #f82249;
@@ -954,7 +960,12 @@ h1, h2, h3, h4, h5, h6 {
   #contact .contact-phone {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
+ 
   }
+}
+#contact .contact-phone p{
+  text-align: left;
+  margin-left: 125px;
 }
 #contact .php-email-form .error-message {
   display: none;
