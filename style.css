@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Prelaoder */
+
 #preloader {
   position: fixed;
   left: 0;
@@ -171,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0px;
   display: flex;
   justify-content: center;
-  width: 100%;
+  width:50%;
 }
 .header-1 {
   position: relative;
@@ -185,6 +186,14 @@ h1, h2, h3, h4, h5, h6 {
   width: 100px;
   margin-left :10px;
   margin-right:10px;
+}
+
+.header-logo2{
+  height:80px;
+  width: 80px;
+  margin-left :10px;
+  margin-right:10px;
+  margin-top: 10px;
 }
 .navbar{
  max-width:900px ;
@@ -317,6 +326,13 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0px;
   }
 
+  .header-logo2{
+    max-width:50px;
+    max-height: 50px;
+    margin: 0px;
+    padding: 0px;
+  }
+
   .navbar ul {
     display: none;
   }
@@ -326,9 +342,17 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width:500px) {
   .navbar{
-    max-width:150px;
+    max-width:80px;
   }
 
+  .header-logo2
+{
+   width: 40px;
+  height: 40px;
+  margin-top: 6px;
+  margin-right: 5px;
+}
+ 
   
 }
 .navbar-mobile {
