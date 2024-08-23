@@ -33,7 +33,7 @@
 
   /** countdown for registration**/
 
-  var countDownDate = new Date("aug 25, 2024 20:00:00").getTime();
+  var countDownDate = new Date("aug 28, 2024 20:00:00").getTime();
 
   // Update the count down every 1 second
   var x = setInterval(function () {
