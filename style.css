@@ -344,21 +344,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-@media (max-width:500px) {
-  .navbar{
-    max-width:80px;
-  }
 
-  .header-logo2
-{
-   width: 40px;
-  height: 40px;
-  margin-top: 6px;
-  margin-right: 5px;
-}
- 
-  
-}
 .navbar-mobile {
   position: fixed;
   overflow: hidden;
