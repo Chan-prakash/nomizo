@@ -616,10 +616,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 /*--------------------------------------------------------------
-# About Section
+# About Section  background: url(intro.jpg) no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
 --------------------------------------------------------------*/
 #about {
-  background: url("about.png");
+  background: url("about.png")no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -658,6 +660,23 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
   color: #fff;
 }
+#timer {
+  display: flex;
+  align-items: center; /* Aligns the items (logo and timer) vertically in the center */
+  justify-content: start; /* Aligns the items horizontally */
+}
+
+#timer img {
+  width: 50px; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 10px; /* Space between logo and timer */
+}
+
+#timer p {
+  font-size: 24px; /* Adjust the timer text size as needed */
+  margin: 0; /* Remove default margin */
+}
+
 
 /*--------------------------------------------------------------
 # event Section
@@ -698,6 +717,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 480px) {
   #speakers .nav-tabs a {
     padding: 8px 30px;
+    margin-top:10px;
   }
 }
 #speakers .nav-tabs a.active {
@@ -1046,6 +1066,10 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(360deg);
   }
 }
+
+
+
+
 
 /*--------------------------------------------------------------
 # Footer
